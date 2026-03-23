@@ -79,7 +79,7 @@ def main():
 **状态**: ✅ 正常运行
 
 ---
-> text
+> {quoted_text}
 > 此消息由 GitHub Actions 自动发送
 """
 
