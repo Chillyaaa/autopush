@@ -62,7 +62,7 @@ def main():
 
     # ===== 在这里修改你的推送内容 =====
     
-    text = 
+    text = text
     
     content = f"""## 定时任务报告
 
