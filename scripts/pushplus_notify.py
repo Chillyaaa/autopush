@@ -62,8 +62,6 @@ def main():
 
     # ===== 在这里修改你的推送内容 =====
     
-    text
-    
     content = f"""## 定时任务报告
 
 **时间**: {now.strftime('%Y-%m-%d %H:%M:%S')} (北京时间)
@@ -71,7 +69,7 @@ def main():
 **状态**: ✅ 正常运行
 
 ---
-
+> text
 > 此消息由 GitHub Actions 自动发送
 """
 
