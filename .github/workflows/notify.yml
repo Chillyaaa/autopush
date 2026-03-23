@@ -24,4 +24,5 @@ jobs:
       - name: Send notification
         env:
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          URL: ${{ secrets.URL }}  
         run: python scripts/pushplus_notify.py
