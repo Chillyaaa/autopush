@@ -53,7 +53,7 @@ def main():
         print("错误: 未设置 PUSHPLUS_TOKEN")
         sys.exit(1)
  # 获取网页文本
-    "url" = url
+ 
     web_text = fetch_web_text(url)
     now = datetime.now(BEIJING_TZ)
     title = f"每日通知 - {now.strftime('%m月%d日')}"
