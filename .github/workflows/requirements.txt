@@ -1,0 +1,5 @@
+text
+beautifulsoup4
+requests
+      - name: Install dependencies
+        run: pip install -r requirements.txt
